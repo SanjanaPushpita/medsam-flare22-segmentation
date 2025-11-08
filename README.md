@@ -42,7 +42,7 @@ Open `notebooks/final_tumor_segmentation.ipynb` in Colab and run sequentially:
 1. **Environment setup** – installs dependencies (PyTorch, MONAI, SAM) and verifies GPU availability.
 2. **Path configuration** – points `CONFIG` to your Drive dataset/weights and applies optional runtime overrides.
 3. **Data preparation** – builds MONAI dataloaders plus a cached positive-slice index for MedSAM.
-4. **Training** – fine-tunes MedSAM on axial slices (default quick-run: 20 epochs, batch size 2 for MedSAM).
+4. **Training** – fine-tunes MedSAM on axial slices (default quick-run: 30 epochs, batch size 2 for MedSAM).
 5. **Evaluation** – computes Dice/IoU/accuracy and exports reports to `CSV/` & `npy/`.
 6. **Visualization** – renders confusion matrix and slice overlays (CT vs. ground truth vs. MedSAM prediction).
 
