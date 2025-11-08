@@ -90,4 +90,3 @@ Please cite the original resources if you build upon this work:
 
 **Maintainer:** Maliha Sanjana (project author)
 
-Ready for GitHub: commit the entire `tumor_segmentation` directory (including notebooks, cache, CSV, npy, png, and weights if desired) and push to a repository such as **`medsam-flare22-segmentation`**.
