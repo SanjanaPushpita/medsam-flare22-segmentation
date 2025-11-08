@@ -2,7 +2,6 @@
 
 Single-model liver (focal organ) segmentation pipeline based on **MedSAM** fine-tuning. The repo captures the final Colab workflow, cached metrics, and qualitative outputs used to generate the results shown in the notebook.
 
-> ℹ️ Earlier UNet/SwinUNETR experiments were removed from the notebook. Only MedSAM is trained/evaluated in this project snapshot.
 
 ## Repository Contents
 
